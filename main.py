@@ -13,7 +13,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-BUCKET_NAME = 'your-bucket-name'
+BUCKET_NAME = os.environ.get("BUCKET_NAME")
 
 s3 = boto3.client('s3',
                   aws_access_key_id=os.environ.get("AWS_ACCESS_KEY_ID"),
