@@ -4,10 +4,10 @@ A fast endpoint for uploading files to AWS S3.
 Usage
 
  ### Clone this repository:
-   `git clone https://github.com/4cecoder/fast-api-uploader-aws.git`
+   git clone https://github.com/4cecoder/fast-api-uploader-aws.git
     
  ### Install dependencies
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
     
  ### Set your AWS credentials as environment variables:
    
