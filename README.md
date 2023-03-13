@@ -9,14 +9,19 @@ Usage
  ### Install dependencies
     pip install -r requirements.txt
     
- ### Set your AWS credentials as environment variables:
-   
-    ```bash
+ ### Update Bucket Name:
+ 
+    BUCKET_NAME=your_bucket_name
+    
+### Set your AWS credentials as environment variables:
+
+```bash
+
     export AWS_ACCESS_KEY_ID=your_access_key_id
     export AWS_SECRET_ACCESS_KEY=your_secret_access_key
     
-    ```
+ ```
     
  ### start the server
     
-    `python main.py`
+    python main.py
