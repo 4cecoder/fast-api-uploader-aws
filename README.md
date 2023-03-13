@@ -1,7 +1,8 @@
 # Fast Uploader
 
 A fast endpoint for uploading files to AWS S3.
-Usage
+
+# Usage
 
  ### Clone this repository:
    git clone https://github.com/4cecoder/fast-api-uploader-aws.git
